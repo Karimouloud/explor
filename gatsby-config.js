@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter v2',
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: 'EXPLOR',
+    description: `Simple static website with GATSBY & REACT`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
@@ -31,5 +31,6 @@ module.exports = {
         icon: `src/icons/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    'gatsby-plugin-netlify'
   ],
 }
