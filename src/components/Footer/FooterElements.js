@@ -1,6 +1,6 @@
 
 import { Link } from "gatsby"
-import { DiScala } from "react-icons/Di"
+import { FaPlaneDeparture } from "react-icons/fa"
 import styled from "styled-components"
 
 export const FooterContainer = styled.div`
@@ -40,7 +40,7 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `
 
-export const SocialIcon = styled(DiScala)`
+export const SocialIcon = styled(FaPlaneDeparture)`
   margin-right: 10px;
 `
 

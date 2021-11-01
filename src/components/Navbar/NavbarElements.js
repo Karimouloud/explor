@@ -1,4 +1,4 @@
-import { DiScala } from "react-icons/Di"
+import { FaPlaneDeparture } from "react-icons/fa"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
@@ -38,7 +38,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `
 
-export const NavIcon = styled(DiScala)`
+export const NavIcon = styled(FaPlaneDeparture)`
   margin: 0 0.5rem 0 2rem;
 `
 
